@@ -1,0 +1,29 @@
+{
+  "model_name": "TF-IDF + Dense Neural Network",
+  "input_text": "headline (optionally combined with short description)",
+  "categories": [
+    "BLACK VOICES",
+    "BUSINESS",
+    "COMEDY",
+    "CRIME",
+    "ENTERTAINMENT",
+    "HEALTHY LIVING",
+    "MEDIA",
+    "PARENTS",
+    "POLITICS",
+    "QUEER VOICES",
+    "SPORTS",
+    "THE WORLDPOST",
+    "WEIRD NEWS",
+    "WOMEN",
+    "WORLD NEWS"
+  ],
+  "test_accuracy": 0.6199262142181396,
+  "test_macro_f1": 0.5467209662735026,
+  "max_features": 5000,
+  "ngram_range": [
+    1,
+    2
+  ],
+  "cleaning": "basic lowercasing, URL/email/hashtag/punctuation/number removal, English stopword removal, WordNet lemmatization"
+}
